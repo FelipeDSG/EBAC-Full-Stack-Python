@@ -1,0 +1,86 @@
+.titulo {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+
+.contatos {
+    display: grid;
+    grid-template-areas: "add-contato pesquisa-contatos"
+        "lista-contatos lista-contatos";
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1fr;
+    min-width: 600px;
+    gap: 30px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.contatos .add-contato {
+    grid-area: add-contato;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contatos .add-contato .nome,
+.contatos .add-contato .numero-telefone,
+.contatos .pesquisa-contatos .pesquisa-nome-contato {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+}
+
+.contatos .add-contato .btn-adicionar {
+    margin: 0 auto 10px;
+    height: 25px;
+    width: 100px;
+}
+
+.contatos .pesquisa-contatos .resultado-pesquisa-contatos {
+    width: 100%;
+}
+
+.contatos .pesquisa-contatos {
+    grid-area: pesquisa-contatos;
+    background-color: blueviolet;
+    padding: 20px;
+    min-width: 400px;
+    padding: 20px;
+}
+
+.contatos .pesquisa-contatos .pesquisa-nome-contato {
+    margin-bottom: 30px;
+}
+
+.contatos .lista-contatos{
+    background-color: red;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.contatos .lista-contatos .cabecalho-lista-contatos{
+    width: 100%;
+}
+
+.coluna {
+    gap: 5px;
+    background-color: beige;
+
+}
+
+.linha {
+    gap: 5px
+}
+
+.contatos .lista-contatos {
+    grid-area: lista-contatos;
+    background-color: rgb(252, 12, 12);
+}

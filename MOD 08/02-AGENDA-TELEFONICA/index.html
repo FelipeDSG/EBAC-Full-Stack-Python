@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Agenda Telefônica</title>
+</head>
+
+<body>
+    <header class="titulo">
+        <h1>AGENDA TELEFÔNICA</h1>
+    </header>
+
+    <main class="contatos">
+        <form class="add-contato" id="form-contatos">
+            <h2>Novo contato</h2>
+            <input class="nome" required placeholder="Nome" type="text" id="nome-contato" />
+            <input class="numero-telefone" required placeholder="(00) 000000000" type="tel" pattern="[0-9]{10,}" id="numero-telefone"/>
+            <button class="btn-adicionar" type="submit">Adicionar</button>
+        </form>
+
+        <div class="pesquisa-contatos">
+            <h2>Pesquisa de Contatos</h2>
+            <input type="text" class="pesquisa-nome-contato" placeholder="Nome"/>
+            
+            <table class="resultado-pesquisa-contatos">
+                <thead >
+                    <tr class="coluna">
+                        <th class="linha">
+                            Nome
+                        </th>
+                        <th>
+                            Telefone
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>    
+            </table>
+        </div>
+
+        <table class="lista-contatos">
+            <thead class="cabecalho-lista-contatos">
+                <tr class="coluna">
+                    <th class="linha">
+                        Nome
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
+        </table>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>

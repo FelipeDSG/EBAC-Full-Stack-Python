@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Verificação</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <h3>Verifique se o <strong> Valor B</strong>  é maior que o <strong> Valor A</strong></h3>
+    <form id="formulario">
+        <p>Valor A</p>
+        <input type="number" required placeholder="Valor A" id="valorA" />
+        <input type="number" required placeholder="Valor B" id="valorB" />
+        <button id="btn-verificar" type="submit" >Verificar</button>
+        <p id="verdadeiro"> O <strong> Valor B</strong> é maior que o <strong> Valor A</strong></p>
+        <p id="falso"> O <strong> Valor B</strong> não é maior que o <strong> Valor A</strong></p>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>

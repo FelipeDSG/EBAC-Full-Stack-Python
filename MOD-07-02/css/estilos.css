@@ -1,0 +1,40 @@
+body h3{
+    font-size: 20px;
+    padding: 20px;
+    max-width: 30%;
+}
+
+body form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    max-width: 33%;
+}
+
+#valorA, #valorB{
+    width: 200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#btn-verificar{
+    width: 100px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#verdadeiro, #falso{
+    font-size: 15px;
+    align-items: center;
+    margin: 0 auto;  
+    display: none;  
+}
+
+#verdadeiro{
+    color: green;
+}
+
+#falso{
+    color: red;
+}

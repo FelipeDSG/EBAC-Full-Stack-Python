@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section div h1, .tratamento-item h2{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px;
+    background-color: #1b7209;
+    color: #ffffff;
+}
+
+header nav li, section nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    padding: 16px;
+    font-size: 24px;
+}
+
+header nav li a, section nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.imagem-capa {
+    margin-right: 32px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 16px auto;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .container, section .container, #contato .container {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+section {
+    margin: 24px 0;
+}
+
+section p {
+    margin-top: 16px;
+}
+
+section h1, #contato h2 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#tratamentos .tratamento-item {
+    text-align: center;
+    margin-bottom: 24px;
+    border: 5px solid #f4f5f4;
+    background-color: #1b7209;
+    border-radius: 8px;
+    padding: 16px;
+    
+}
+
+#tratamentos .tratamento-item h2 {
+    background-color: #1b7209;
+    padding: 12px 0;
+    color: #ecf0f1;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#tratamentos .tratamento-item p {
+    margin-bottom: 16px;
+    margin-left: 84px;
+    margin-right: 84px;
+    text-align: center;
+}
+
+#tratamentos .tratamento-item .bt-conhecer {
+    background-color: #ffffff;
+    color: #1b7209;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    
+}
+
+#tratamentos .tratamento-item .bt-conhecer:hover {
+    background-color: #1b7209;
+    color: #ffffff;
+}
+
+
+#contato .metodos-contato div {
+    text-align: center;
+}
+
+#contato form input, #contato form textarea, #contato form button {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+#contato .links-sociais {
+    list-style: none;
+    padding: 16px;
+    /*display: flex;*/
+    justify-content: center;
+    text-align: center;
+}
+
+#contato .links-sociais li {
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+#contato .links-sociais img {
+    width: 40px;
+    height: 40px;
+   
+    margin-right: 16px;
+    
+}
+
+footer {
+    background-color: #1b7209;
+    color: #ffffff;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.metodos-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form button{
+        width: 620px;
+    margin-bottom: 24px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #1b7209;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: #259c2f;
+}
